@@ -1,0 +1,16 @@
+[package]
+name = "rust-spice-results"
+version = "0.1.0"
+authors = ["Caleb Leinz <cleinz@pm.me>"]
+edition = "2021"
+description = "Wrapper on rust-spice library to provide error handling"
+license = "MIT"
+repository = "https://github.com/cmleinz/rust-spice-results"
+keywords = ["space", "spice", "nasa", "naif", "kernels"]
+categories = ["algorithms", "api-bindings", "science"]
+
+[lib]
+name = "spice_results"
+
+[dependencies]
+rust-spice = { git = "https://github.com/cmleinz/rust-spice", branch = "dev" }
